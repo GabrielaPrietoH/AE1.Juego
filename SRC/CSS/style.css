@@ -1,0 +1,210 @@
+
+
+body{
+    background: rgb(188, 236, 255);
+    width: 100%;
+    min-height: 100%;
+    
+    /*USAR SALON BIG BANG PARA EL FONDO*/
+    
+}
+
+.player{
+  display: flex;
+  width: 100%;
+    height: auto;
+    
+    background-color: rgb(192, 241, 248);
+    
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+#salon {
+  position: fixed;  
+  
+  width: 100vw;  
+  height: 100vh;  
+  object-fit: cover;  
+  object-position: center;  
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    min-height: 80%;
+  }
+
+  
+  
+  .left_side {
+    flex-basis: 30%;
+    
+    background-color: rgb(188, 236, 255);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    
+    
+  }
+  
+  .central_side {
+    flex-basis: 80%;
+    
+    background-color: rgb(188, 236, 255);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    
+  }
+  
+  .right_side {
+    flex-basis: 30%;
+    
+    background-color: rgb(188, 236, 255);
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+  }
+
+/**/
+
+.eleccion{
+    
+  width: 40%;
+  height: 16%;
+  margin: auto;
+  padding: 2%;
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+    
+}
+
+
+
+#piedra{
+  width: 100%;
+  height: auto;
+  
+}
+#papel{
+  width: 100%;
+  height: auto;
+  
+}
+#tijeras{
+  width: 100%;
+  height: auto;
+  
+}
+#lagarto{
+  width: 100%;
+  height: auto;
+  
+}
+#spock{
+  width: 100%;
+  height: auto;
+  
+}
+
+.rival{
+  text-align: center;
+  
+  
+}
+#piedra_rival{
+  width: 100%;
+  height: auto;
+  
+}
+#papel_rival{
+  width: 100%;
+  height: auto;
+  
+}
+#tijera_rival{
+  width: 100%;
+  height: auto;
+  
+}
+#lagarto_rival{
+  width: 100%;
+  height: auto;
+  
+}
+#spock_rival{
+  width: 100%;
+  height: auto;
+  
+}
+
+.rival{
+  text-align: center;
+  
+  
+}
+
+.eleccion img {
+  transition: transform 0.5s ease-in-out;
+}
+
+
+/**/
+
+
+.marcador{
+  text-align: center;
+  height: 30%;
+  margin: 20%
+
+}
+.eleccion_player{
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  height: 30%;
+  
+}
+
+.img-stilo{
+  width: 50%;
+  height: auto;
+}
+
+.vs{
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  height: 30%;
+}
+
+.eleccion_rival{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  height: auto;
+
+}
+
+.resultado{
+  text-align: center;
+  height: auto;
+
+}
+
+
+

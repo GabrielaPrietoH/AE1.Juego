@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <script type="text/javascript" src="/SRC/JS/code.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="/SRC/CSS/style.css">
+</head>
+<body>
+    <div class="player">
+        <form id="formulario">
+            <label for="player:">Player 1:</label>
+            <input id="player" type="text" name="player" placeholder="Introduce tu nombre" autofocus />
+            <input id="boton" type="submit" value="¡A jugar!" />
+        </form>
+    </div>
+
+    
+
+    <!--Utilizar para las imágenes fotos de sheldon haciendo la pose, del capt con jersey morado
+            Temporada 2, episodio 8: "La expansión Lagarto-Spock"
+        -que el ratón sea una nave de star trek-->
+
+    <img id="salon" src="/ASSETS/IMG/LivingRoom.jpg" alt="salon"/>
+
+    <main id="main" >
+        
+       
+        <section  class="left_side">
+
+            <p class="rival">¡Elige sabiamente!</p>
+            
+            <div class="eleccion">
+                <img class="imagen" id="piedra" src="/ASSETS/IMG/stone_4405457.png" alt="piedra"/>
+            </div>
+            <div class="eleccion">
+                <img class="imagen" id="papel" src="/ASSETS/IMG/paper_2541979.png" alt="papel"/>
+
+            </div>
+            <div class="eleccion">
+                <img class="imagen" id="tijeras" src="/ASSETS/IMG/scissors_1449814.png" alt="tijera"/>
+
+            </div>
+            <div class="eleccion">
+                <img class="imagen" id="lagarto" src="/ASSETS/IMG/lagarto.png" alt="lagarto" />
+
+            </div>
+            <div class="eleccion">
+                <img class="imagen" id="spock" src="/ASSETS/IMG/vulcano.png" alt="spock"/>
+
+            </div>
+            
+
+            
+        </section>
+        
+
+        
+        <section  class="central_side">
+                <div id="marcador" class="marcador">
+                    <span id="playerScore">0</span> / <span id="enemyScore">0</span>
+                </div>
+                <div  class="eleccion_player">
+                    <img class="img-stilo"  id="eleccion_player" src="/ASSETS/IMG/reloj-de-arena.png"  alt="elección jugador"/>
+                </div>
+                <div id="vs" class="vs">
+                    <img class="img-stilo"  id="vs" src="/ASSETS/IMG/competencia.png"  alt="vs"/>
+                </div>
+                <div  class="eleccion_rival">
+                    <img class="img-stilo" id="eleccion_rival" src="/ASSETS/IMG/reloj-de-arena.png" alt="elección rival"/>
+                </div>
+                <div id="resultado" class="resultado">¡AL MEJOR DE 5!</div>
+            
+                
+        </section>
+            
+        
+
+        <section  class="right_side">
+
+            <p class="rival"> ¡SHELDON COOPER!</p>
+
+            <div class="eleccion">
+                <img class="imagenRival" id="piedra_rival" src="/ASSETS/IMG/stone_4405457.png"  alt="piedra"/>
+            </div>
+            <div class="eleccion">
+                <img class="imagenRival" id="papel_rival" src="/ASSETS/IMG/paper_2541979.png" alt="papel"/>
+
+            </div>
+            <div class="eleccion">
+                <img class="imagenRival" id="tijera_rival" src="/ASSETS/IMG/scissors_1449814.png"  alt="tijera"/>
+
+            </div>
+            <div class="eleccion">
+                <img class="imagenRival" id="lagarto_rival" src="/ASSETS/IMG/lagarto.png" alt="lagarto"/>
+
+            </div>
+            <div class="eleccion">
+                <img class="imagenRival" id="spock_rival" src="/ASSETS/IMG/vulcano.png" alt="spock"/>
+
+            </div>
+                    
+        </section>
+           
+    </main>
+    
+    
+</body>
+</html>
