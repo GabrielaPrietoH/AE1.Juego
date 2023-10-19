@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra papel tijera lagarto spock</title>
+
+    <script type="text/javascript" src="C:\Users\gabip\OneDrive\Escritorio\Desarrollo de interfaces\AE1 Juego piedra papel o tijeras\codigo.js"></script>
+
+    <link rel="stylesheet" href="C:\Users\gabip\OneDrive\Escritorio\Desarrollo de interfaces\AE1 Juego piedra papel o tijeras\indexcss.css">
+</head>
+<body>
+
+    <header>
+        <h1>Piedra Papel Tijeras Lagarto Spock</h1>
+    </header>
+
+    <nav class="jugador">
+       <form id="formulario">
+         <label for="textName">Nombre del Jugador</label>
+         <input type="text" name="" id="textName">
+         <button class="btn" id="btnJugar" type="button" value= "jugar" > Juguemos</button>
+       </form>
+    </nav>
+
+    <main id ="campo-juego">
+        <p class="instrucciones" id="instrucciones">
+            El primero en llegar a 5 puntos gana.
+        </p>
+        <div class="marcador">
+            <span class="nombre nombre-jugador" id ="jugador"> Jugador </span>
+            <p class="nombre nombre-computadora">Ordenador</p>
+            <p class="puntos">
+                <span id="puntos-usuario">0</span>
+                <span>-</span>
+                <span id="puntos-pc">0</span>
+            </p>
+        </div>
+        <div class="elegi-tu-arma" id="elegi-tu-arma">
+            <h2>Elegí tu arma para el próximo turno</h2>
+            <div class="armas">
+                <button class="arma" id="piedra"></button>
+                <button class="arma" id="papel"></button>
+                <button class="arma" id="tijera"></button>
+                <button class="arma" id="lagarto"></button>
+                <button class="arma" id="spock"></button>
+            </div>
+        </div>
+        <div class="mensaje disabled" id="mensaje">
+            <p>
+                Usaste <span class="eleccion" id="eleccion-usuario">papel</span><br>
+                y la computadora usó <span class="eleccion" id="eleccion-pc">piedra</span>
+            </p>
+            <p id="gana-punto">¡Ganaste un punto!</p>
+        </div>
+        <span class="btn disabled" id="reiniciar"></span>
+    </main>
+</body>
+</html>

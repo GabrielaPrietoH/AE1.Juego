@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+}
+
+h1{
+    color: white;
+    margin-left: 10%;
+    background: rgb(254,218,95);
+    background: linear-gradient(0deg, rgba(254,218,95,1) 0%, rgba(243,197,15,1) 100%);
+}
+
+header {
+    width: 90%;
+    height: 200px;
+    background-image: url("https://www.downloadyouthministry.com/dw/image/v2/BFBF_PRD/on/demandware.static/-/Sites-dym-master-catalog/default/dw73791b0b/images/hi-res/d/e/default_949.jpg?sw=1200&sh=675&sm=fit");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+
+   }
+
+nav {
+     font-size: 1.5rem;
+     color: darkred;
+     paddin: 10px;
+     margin-top: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.instrucciones {
+    color: yellowgreen;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.marcador {
+    color: white;
+    padding: 1rem 2rem;
+    boder-radius: 0.50rem;
+    position: relative;
+    display: flex;
+    align-itens: center;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.marcador .nombre {
+    position: absolute;
+    color: black;
+    background-color: beige;
+    line-height: 1;
+    padding: .5rem;
+    border-radius: .5rem;
+
+}
+
+.marcador .nombre-jugador {
+    right: 85%;
+}
+
+.marcador .nombre-computadora {
+    left: 85%;
+}
+
+.marcador .puntos {
+    font-size: 1.6rem;
+}
+
+.elegi-tu-arma {
+    margin-bottom: 2rem;
+}
+
+.elegi-tu-arma h2 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.armas {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.arma {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    background-color: beige;
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.mensaje {
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.mensaje .eleccion {
+    color: yellow;
+    border-radius: .25rem;
+    padding-inline: .25rem;
+}
+
+
+
+.disabled {
+    display: none;
+}
+
+#spock{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://images.equipboard.com/uploads/user/image/123002/original_squared_spock.PNG?v=1585123965");
+}
+
+#lagarto{
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://th.bing.com/th/id/R.0444f00c96150ed5054296a38ef8f826?rik=P3Eik%2f9PFqu%2bpg&pid=ImgRaw&r=0");
+}
+
+#tijera{
+ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-004-512.png");
+}
+
+#papel{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://icon-library.com/images/rock-paper-scissors-icon/rock-paper-scissors-icon-17.jpg");
+}
+
+
+
+#piedra{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://thumbs.dreamstime.com/b/rough-rock-face-illustration-60568058.jpg");
+}
