@@ -49,8 +49,9 @@ function events(){
    formulario.addEventListener('input',validarFormulario);
    botonJugar.disabled = true;
    botonJugar.addEventListener('click', turnos);
-}
+   
 
+}
 
 function validarFormulario(){
 
@@ -60,18 +61,35 @@ function validarFormulario(){
     }else if(name.test(nombre.value)){
         cNombre.textContent = nombre.value;
             botonJugar.disabled = false;
-            iniciarTurno();
-            
+            turnos();
         }
 }
 
+function turnos(){
+
+
+        botonesArmas.forEach(boton =>{
+        boton.addEventListener('click', iniciarTurno);
+       
+      
+            for(let i = 0; i < botonesArmas.length; i++){
+            botonesArmas[i].addEventListener("mouseover", ()=>{
+            botonesArmas[i].style.transform = "scale(1.2)";
+            });
+            botonesArmas[i].addEventListener("mouseout", ()=>{
+            botonesArmas[i].style.transform = "scale(1)";
+            });
+          }
+        });
+}
 
 
 function iniciarTurno(e) {
 
 
     let eleccionPC = Math.floor(Math.random() * 5);
-    let eleccionUsuario = e.currentTarget.id;
+    let eleccionUsuario = e.target.id;
+    
 
     // piedra => 0
     // papel => 1
@@ -188,29 +206,11 @@ function resetear() {
 
 }
 
-function turnos(){
-
-        botonesArmas.forEach(boton =>{
-        boton.addEventListener('click', iniciarTurno);
-      
-            for(let i = 0; i < botonesArmas.length; i++){
-            botonesArmas[i].addEventListener("mouseover", ()=>{
-            botonesArmas[i].style.transform = "scale(1.2)";
-            });
-            botonesArmas[i].addEventListener("mouseout", ()=>{
-            botonesArmas[i].style.transform = "scale(1)";
-            });
-          }
-        });
-}
-
-
 
 
 window.addEventListener("load",()=>{
 
      init();
      events();
-
 
 });
