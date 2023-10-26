@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color:#b3dcf3;
+    width: 100%;
+
+
+}
+header {
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.274)),
+        url(images/BigBang.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    background-attachment:unset;
+    
+}
+
+footer{
+   
+    padding: 15px;
+    background-color: black;
+    color: #b3dcf3;
+    text-decoration: none;
+    width: 105%;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.274)),
+        url(images/BigBang.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    background-attachment:initial;
+    flex-direction: column;
+}
+
+button{
+    background-color: #ffe97d;
+    border: 4px solid black;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(116, 53, 53);
+}
+
+.player{
+    display: flex;
+    width: 104%;
+    height: auto;
+    background-color:  rgb(116, 53, 53);
+    color: rgb(192, 241, 248);
+    max-width: 420px;
+    align-items: center;
+    flex-direction: column;
+         
+  }
+  .boton{
+    color: aliceblue;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    max-width: 420px;
+    max-height: 745px;
+    background-color:#b3dcf3;
+    padding: 1rem; 
+    height: 100%;
+    width: 100%;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    background-color:#b3dcf3;
+    height: 100%;
+    
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    font-size: 25px;
+    text-align:center;
+    padding: 10px;
+}
+
+p{
+    font-size: 25px;
+    text-align:center;
+    padding: 10px;  
+    color: rgb(116, 53, 53);
+    font-weight: 600;
+}
+
+.marcador{
+    background-color: rgb(192, 241, 248);
+    padding: .5rem 2rem;
+    position: relative;
+    display:flex;
+    align-items: center;
+    color: rgb(116, 53, 53);
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    border:2px solid rgb(192, 241, 248);
+   
+   
+} 
+.marcador .nombre{
+    position: absolute;
+    color: #b3dcf3;
+    background-color: rgb(116, 53, 53);
+    line-height: .5;
+    padding: .5rem;
+    border: 2px solid rgb(192, 241, 248);;
+}
+.marcador .nombre-jugador{
+    right: 85%;
+}
+
+.marcador .nombre-ordenador{
+    left: 85%;
+}
+
+
+#result{
+   text-align: center;
+}
+
+#result img{
+    width: 20%;
+}
+
+#start-text{
+    font-size: 36px;
+    padding: 20px;
+    color: rgb(116, 53, 53);
+    font-weight: 700;
+}
+
+#group-btn{
+   display: flex;
+   width: 100%;
+
+        
+}
+
+#group-btn > button > img{
+    width: 100%
+}
+
+.btn1 {
+    font-size: 2rem;
+    background-color: rgb(116, 53, 53);
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor:pointer;
+       
+
+}
+
+.machine-img{
+    font-size: .5rem;
+    font-size: .5rem;
+    background-color: rgb(116, 53, 53);
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor:pointer;
+}
+.user-img{
+    font-size: 2rem;
+    font-size: 2rem;
+    background-color: rgb(116, 53, 53);
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor:pointer;
+   
+
+}
+
+#rock{
+    width: 255%;
+    height: auto;
+}
+#paper{
+    width: 255%;
+    height: auto;
+}
+#scissors{
+    width: 255%;
+    height: auto;
+}
+#lizard{
+    width: 255%;
+    height: auto;
+}
+#spock{
+    width: 255%;
+    height: auto;
+}

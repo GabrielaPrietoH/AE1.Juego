@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock| Libertad</title>
+    <link rel="stylesheet" href="liber.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+
+    <div class="container">
+
+        <nav class="player">
+            <form id="formulario">
+                <label for="player:">User Name:</label>
+                <input id="player" type="text" name=" " placeholder="Introduce tu nombre" autofocus />
+                <input id="btn" type="submit" value="¡Start!" />
+            </form>
+        </nav>
+
+        <main id="main">
+            <div>
+                <p class="message" id="message-final">¡Get three points to win!</p>
+            </div>
+
+            <div class="marcador">
+                <p class="nombre nombre-jugador" id ="jugador">Player</>
+                <p class="nombre nombre-ordenador">Machine</p>
+                <p class="puntos">
+                    <span id="point-user">0</span>
+                    <span>-</span>
+                    <span id="point-pc">0</span>
+                </p>
+            </div>
+
+
+            <div id="result">
+
+                <img id="machine-img" src="images/rock.svg">
+
+                <div id="start-text">
+                    Choosing...
+                </div>
+
+                <img id="user-img" src="images/rock.svg">
+
+
+            </div>
+            <div>
+                <p>Choose an option to get started!</p>
+            </div>
+
+            <div id="group-btn">
+
+                <button id="rock" type="button">
+                    <img src="images/rock.svg" />
+                </button>
+                <button id="paper" type="button">
+                    <img src="images/paper.svg" />
+                </button>
+                <button id="scissors" type="button">
+                    <img src="images/scissors.svg" />
+                </button>
+                <button id="lizard" type="button">
+                    <img src="images/lizard.svg" />
+                </button>
+                <button id="spock" type="button">
+                    <img src="images/spock.svg" />
+                </button>
+            </div>
+        </main>
+        <footer>
+            <h2>Made with ❤️ by Group... </h2>
+        </footer>
+        <script src="liber.js"></script>
+
+</body>
+
+</html>
