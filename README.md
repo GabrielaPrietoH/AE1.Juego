@@ -1,5 +1,5 @@
 
-![Image text]("C:\Users\gabip\OneDrive\Escritorio\titulo juego.jpg")
+![Image text]("https://foto.askix.com/upload/c/18/c18a01c81a03381385172bb6babcd556.jpg")
 
 
 ### Desarrollo de interfaces 2ºDAM
