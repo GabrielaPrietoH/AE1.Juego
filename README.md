@@ -13,7 +13,7 @@ Creado por :
 
 ## INDICE
 1. [Actividad a realizar](#general-info)
-2. [Resumen del proyecto](#technologies)
+2. [Metodologia de la actividad](#technologies)
 
 ### Actividad a realizar
 ***
