@@ -1,7 +1,8 @@
 
 ![Image text]("https://foto.askix.com/upload/c/18/c18a01c81a03381385172bb6babcd556.jpg")
 
-
+### AE1. JUEGO DE PIEDRA, PAPEL, TIJERAS, LAGARTO, SPOCK.
+### HTML CSS Y JAVASCRIPT
 ### Desarrollo de interfaces 2ºDAM
 *** 
 
