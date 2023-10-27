@@ -3,7 +3,7 @@
 ### HTML CSS Y JAVASCRIPT
 ### Desarrollo de interfaces 2ºDAM
 *** 
-![63-man1cku1yqc12i974vesu5o8o1_5002](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/1732af4c-e1c5-4bf7-a7c1-39f2c6d6c3c9)
+![LivingRoom](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/63b6faa5-85e9-496c-ae48-0b3aece8598c)
 
 Creado por :
 * GABRIELA PRIETO HERRERA
