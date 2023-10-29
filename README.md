@@ -13,6 +13,9 @@ Creado por :
 ## INDICE
 1. [Actividad a realizar](#general-info)
 2. [Metodologia de la actividad](#technologies)
+3. [Actividad Elegida-Cristian](#technologies)
+4. [Actividad- Gabriela](#technologies)
+5. [Actividad- Libertad](#technologies)
 
 ### Actividad a realizar
 ***
@@ -70,4 +73,17 @@ Para esta actividad, hemos teniendo en cuenta la importancia de que cada alumno 
 
 Por lo tanto cada participante del grupo a subido a su rama la actividad completa y partiendo de este punto, hemos decidido que actividad se coloca en el main como actividad principal. Teniendo en cuenta, que cualquiera es valida, basando nuestra decisión en aquella actividad mejor estructurada visualmente.
 
+### Actividad Elegida - Cristian 
+***
+La actividad elegida a sido la de CRISTIAN DAVID QUICENO LAVERDE, que acontinuacion mostramos:
+1. Para iniciar con el Juego encontramos un portal con una imagen del salon del Big Bang Theory y una opcion en la cual se debe poner el nombre del Jugador para acceder al Juego.
 
+
+2.  A continuancion se muestra la pagina principal del Juego en la cual se cumplen todas las condiciones dadas en la actividad. Para poder ganar el Juego se pone un limite de 5 puntos.
+   
+### Actividad - Gabriela
+
+### Actividad - Libertad
+
+
+ 
