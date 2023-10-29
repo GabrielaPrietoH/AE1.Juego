@@ -78,12 +78,17 @@ Por lo tanto cada participante del grupo a subido a su rama la actividad complet
 La actividad elegida a sido la de CRISTIAN DAVID QUICENO LAVERDE, que acontinuacion mostramos:
 1. Para iniciar con el Juego encontramos un portal con una imagen del salon del Big Bang Theory y una opcion en la cual se debe poner el nombre del Jugador para acceder al Juego.
 
+![cristian1](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/e2826f39-048e-421f-b3df-c8f464e9e339)
 
 2.  A continuancion se muestra la pagina principal del Juego en la cual se cumplen todas las condiciones dadas en la actividad. Para poder ganar el Juego se pone un limite de 5 puntos.
+
+ ![CRISTIAN2](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/19faeab2-9de2-4db7-9988-1a96aabdcd22)  
    
 ### Actividad - Gabriela
 
+![Gabriela](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/23604502-fc80-4038-aacb-75b312573f95)
+
 ### Actividad - Libertad
 
-
+![Liber](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/80541088-d7c5-4cc9-bd90-a926b449588c)
  
