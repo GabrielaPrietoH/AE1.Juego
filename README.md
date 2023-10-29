@@ -3,7 +3,7 @@
 ### HTML CSS Y JAVASCRIPT
 ### Desarrollo de interfaces 2ºDAM
 *** 
-![LivingRoom](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/63b6faa5-85e9-496c-ae48-0b3aece8598c)
+![piedra](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/bf287498-e8f1-4024-9405-2a015d5880d6)
 
 Creado por :
 * GABRIELA PRIETO HERRERA
