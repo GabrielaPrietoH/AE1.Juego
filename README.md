@@ -16,7 +16,7 @@ Creado por :
 3. [Actividad Elegida-Cristian](#technologies)
 4. [Actividad- Gabriela](#technologies)
 5. [Actividad- Libertad](#technologies)
-6. [Conclusiones]
+6. [Conclusiones](#technologies)
 
 ### Actividad a realizar
 ***
