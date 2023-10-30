@@ -16,6 +16,7 @@ Creado por :
 3. [Actividad Elegida-Cristian](#technologies)
 4. [Actividad- Gabriela](#technologies)
 5. [Actividad- Libertad](#technologies)
+6. [Conclusiones]
 
 ### Actividad a realizar
 ***
@@ -80,15 +81,21 @@ La actividad elegida a sido la de CRISTIAN DAVID QUICENO LAVERDE, que acontinuac
 
 ![cristian1](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/e2826f39-048e-421f-b3df-c8f464e9e339)
 
-2.  A continuancion se muestra la pagina principal del Juego en la cual se cumplen todas las condiciones dadas en la actividad. Para poder ganar el Juego se pone un limite de 5 puntos.
+2.  A continuancion se muestra la pagina principal del Juego en la cual se cumplen todas las condiciones dadas en la actividad lineas arriba.
+    Para poder ganar el Juego se debe obtener un maximo de 5 puntos.
 
  ![CRISTIAN2](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/19faeab2-9de2-4db7-9988-1a96aabdcd22)  
    
-### Actividad - Gabriela
+### Se muestra la actividad realizada por Gabriela
 
 ![Gabriela](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/23604502-fc80-4038-aacb-75b312573f95)
 
-### Actividad - Libertad
+### Se muestra la actividad realizada por Libertad
 
 ![Liber](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/80541088-d7c5-4cc9-bd90-a926b449588c)
+
+### Conclusiones
+Para el desarrollo de este Actividad, se han aplicado diversas tecnologías, fundamentales en el campo de la programación web, poniendo en práctica tecnologías aprendidas durante el transcurso de la asignatura, como HTML, CSS y JS.
+El objetivo ha sido el desarrollo de un programa informático que juega al juego de Piedra Papel Tijeras Lagarto o Spock contra un jugador humano.
+Para ello, se han realizado varios modelos de forma individual, para que finalmente de forma conjunta se concluya eligiendo el modelo que consideramos adecuado a presentar debido a su originalidad, claridad y mejor estructura visual.
  
