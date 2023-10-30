@@ -3,7 +3,7 @@
 ### HTML CSS Y JAVASCRIPT
 ### Desarrollo de interfaces 2ºDAM
 *** 
-![piedra](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/bf287498-e8f1-4024-9405-2a015d5880d6)
+![rock-paper-scissors-lizard-spock](https://github.com/GabrielaPrietoH/AE1.Juego/assets/124418682/e766041b-a257-4cc5-ba55-3ef8d765cb01)
 
 Creado por :
 * GABRIELA PRIETO HERRERA
